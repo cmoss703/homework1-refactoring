@@ -26,9 +26,9 @@ The items of importance in this code refactoring exercise were as follows:
 
 This project was successfully deployed. Need proof? Click the links below to give it a try.
 
-The website: 
+[The Website](https://cmoss703.github.io/homework1-refactoring/)
 
-The github repo:
+[Github repo](https://github.com/cmoss703/homework1-refactoring)
 
 ## CONCLUSION
 

@@ -54,8 +54,7 @@ header {
     color: #d9dcd6;
 }
 
-/*It was unnecessary to have a list under the header class. See comment before the <a> tag above. I have created the nav category 
-    and moved most of the css elements to it, and kept the rest in the <a> tag where appropriate.*/
+/*Removed list and created <nav> tag.*/
 
 nav {
     padding-top: 15px;
@@ -65,9 +64,7 @@ nav {
     font-size: 20px;
 }
 
-/*This #hero image ID used to be a class that contained a background image. For accessibility, the image is now located and 
-    properly identified in the html file. This ID is now used to format the image. I looked into how to use the object-fit 
-    function to crop the image as shown before.*/
+/*Replaced background image class with accessible image and format qualities to look identical as before.*/
 
 #hero {
     height: 800px;
@@ -86,9 +83,7 @@ nav {
     margin-left: 25px;
 }
 
-/*These content and benefit IDs and classes were kind of a mess before. Most of the specific tags didn't need to have their 
-    own identifier since they had identical properties, and it was all very repetitive. To fix this, I combined them into the 
-    .content .benefit classes or the general <p> tag where appropriate.*/
+/*Combined identical classes and IDs, rearranged formatting to simplify code.*/
 
 #content {
     width: 75%;
@@ -127,8 +122,7 @@ nav {
     max-width: 150px;
     }
 
-/*Much like the header, this didn't need to be specified as a class because it already has an element associated with the footer. 
-    I have fixed this for accessibility as well as organization.*/
+/*Replaced .footer class with <footer> element.*/
 
 footer {
     padding: 30px;

@@ -20,7 +20,7 @@ The items of importance in this code refactoring exercise were as follows:
 
 5. Scout Rule. I have definitely left this code a bit cleaner than it was before. By combining and removing certain classes and elements as necessary, I believe this is one clean piece of work. I hope you agree!
 
-6. Commenting. Man, I commented the heck out of this. I tried to be as descriptive as possible with the work that was done. I hope it makes sense, and is helpful to understand my thought process.
+6. Commenting. I tried to be as clear and concise as possible with the work that was done. I hope it makes sense, and is helpful to understand my thought process.
 
 ## DEPLOYED!
 

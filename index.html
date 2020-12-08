@@ -5,36 +5,29 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
 
-    <!-- This webpage did not have a title, I created one that is simple and descriptive.-->
+    <!--Created simple and descriptive title.-->
 
-    <title>Horiseon Home Page</title>
+    <title>Horiseon Homepage</title>
 </head>
 
 <body>
 
-    <!--The header was just a section with a class called .header. For accessbility, I have removed the .header class 
-        and converted it into the <header> element. I have fixed one of the links that did not function properly and utilized 
-        the <nav> element to identify that this section is used to navigate the page. The list elements were unnecessary. I have 
-        removed them and just formatted them as links. It looks and functions the same way in the webpage, but the code is more 
-        organized and simplified.-->
+    <!--Repalced .header class with <header> element. Fixed a link and created <nav> element. Removed unnecessary list.-->
 
     <header>
         <h1>Hori<span id="seo">seo</span>n</h1>
         <nav>
-            <a href="#search-engine-optimization">Search Engine Optimization</a>
-            <a href="#online-reputation-management">Online Reputation Management</a>
-            <a href="#social-media-marketing">Social Media Marketing</a>
+            <a href="#search-engine-optimization" title="Go to Search Engine Optimization">Search Engine Optimization</a>
+            <a href="#online-reputation-management" title="Go to Online Reputation Management">Online Reputation Management</a>
+            <a href="#social-media-marketing" title="Go to Social Media Marketing">Social Media Marketing</a>
         </nav>
     </header>
 
-    <!--This image was just a background image cover. To make it more accessible, I have linked the image in html and 
-        updated the #hero ID in css to format the image.-->
+    <!--Made image accessible instead of background image.-->
 
     <img id="hero" src="assets/images/digital-marketing-meeting.jpg" alt="Digital Marketing Meeting">
 
-    <!--Each of the following boxes were identified as unique classes AND IDs, this was repetitive and unnecessary since they 
-        are largely identical. I kept the ID tags since the navigation links use them, but combined all of the common css 
-        properties into a single .content class. See css file for more details.-->
+    <!--Combined identical properties into a single class. Added alt text to images-->
 
     <section id="content">
         <section class="content" id="search-engine-optimization">
@@ -68,8 +61,7 @@
         </section>
     </section>
 
-    <!--There was no reason for each of these sections to have their own classes. Their elements and formatting are identical. 
-        I have combined them for ease. See css file for more information. The images now all have alt text as well, for accessibility. -->
+    <!--Combined identical and common classes. Added alt text to images.-->
 
     <section class="benefits">
         <section>
@@ -98,7 +90,7 @@
         </section>
     </section>
 
-    <!--Much like the header, the footer should be assigned the <footer> tag, not have a new class assigned to it. I have fixed this.-->
+    <!--Replaced .footer class with <footer> element-->
 
     <footer>
         <h4>Made with ❤️️ by Horiseon</h4>

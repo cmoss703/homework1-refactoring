@@ -8,8 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
-/* The following heading tags were all out of order and unnecessarily combined within class and ID categories. 
-    I have simplified and reorganized them.*/
+/* Simplified and reorganized heading tags.*/
 
 h1 {
     display: inline-block;
@@ -26,8 +25,7 @@ h3 {
     text-align: center;
 }
 
-/*There was no reason to have a list in the <nav> section. I have moved the list formatting to the <a> link tag. 
-    It looks and functions the same way.*/
+/*List removed from <nav> section and formatting moved to <a> link tag.*/
 
 a {
     color: #ffffff;
@@ -36,15 +34,14 @@ a {
     margin-left: 25px;
 }
 
-/*Since all of the <p> css elements were identical, I have simplified this by removing them from 
-    the the class and ID elements where necessary, and combining them.*/
+/*Combined identical p tags*/
 
 p {
     font-size: 16px;
     margin-bottom: 32px;
 }
 
-/*There was no reason to have a .header class when the <header> element exists. I have fixed this.*/
+/*Repalced .header class with <header> element.*/
 
 header {
     padding: 20px;
